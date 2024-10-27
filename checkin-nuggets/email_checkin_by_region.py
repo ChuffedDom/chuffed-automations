@@ -6,7 +6,7 @@ from email.mime.text import MIMEText
 import base64
 
 # Load service account credentials and set up Gmail API
-SERVICE_ACCOUNT_FILE = '../chuffed-automations-key.json'
+SERVICE_ACCOUNT_FILE = '/home/chuffed-automations/chuffed-automations-key.json'
 USER_TO_IMPERSONATE = 'dom@chuffed.solutions'
 SCOPES = ['https://www.googleapis.com/auth/gmail.send']
 
