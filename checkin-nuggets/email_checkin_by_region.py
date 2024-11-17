@@ -45,12 +45,12 @@ def main(region_time_zone):
         if checked_in_today:
             # Send congratulatory email
             subject = "🎉 Great Job"
-            body = ("Hey, good on you for turning up today. 6 people celebrated that. "
+            body = ("Hey, good on you for turning up today. 5 people celebrated that. "
                     "Look forward to seeing you tomorrow.\n\nDom")
         else:
             # Send nudge email
             subject = "👉🏾 Nudge"
-            body = ("Hey, you haven't checked in today. 8 people nudged you. "
+            body = ("Hey, you haven't checked in today. 6 people nudged you. "
                     "All you need to do is 5 minutes towards your big goal and check-in here: "
                     "https://app.checkinnuggets.xyz/\n\nDom")
 
