@@ -1,3 +1,4 @@
 # ignore .env file
 .env
 .DS_Store
+chuffed-automations-key.json
