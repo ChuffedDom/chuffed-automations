@@ -32,3 +32,6 @@ def test_up_request(url):
 print("\n" + 100 * "=")
 print(f"🚦 Running tests at {datetime.datetime.now()} ...")
 test_up_request("http://localhost:5000/")
+test_up_request("http://automations.chuffed.app")
+test_up_request("https://automations.chuffed.app")
+
