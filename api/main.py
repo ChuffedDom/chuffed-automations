@@ -40,6 +40,7 @@ def confirm_email():
             return {'message': 'email sent'}
         else:
             logging.error(f"Failed to send email, status code: {response.status_code}")
+            return {'message': 'email not sent'}, 500
     except Exception as e:
         logging.error("Error occurred while sending email", exc_info=True)
         return {'message': 'email not sent'}, 500
