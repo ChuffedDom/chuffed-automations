@@ -4,8 +4,10 @@ import logging
 from dotenv import load_dotenv
 from sendgrid import SendGridAPIClient
 from sendgrid.helpers.mail import Mail
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)  # Enable CORS for all sources
 
 # Load environment variables
 load_dotenv()
